@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cartas pokemon</title>
+    </head>
+    <body>
+        <header><h1> sale cards </h1></header>
+        <nav> 
+            <ul>
+                <li><a href="https://corporate.pokemon.com/es-mx/">Inicio</a></li>
+                <li><a href="https://pokemon.fandom.com/es/wiki/Historia_del_mundo_Pokémon">Informacion</a></li>
+                <li><a href="https://www.wikidex.net/wiki/Leyenda_de_la_creación_Pokémon">Contactus</a></li>
+            </ul>
+        </nav>
+        <main> 
+            <h2> Tipos de carta de pokemon</h2>
+            <span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Distinctio quo modi facilis officia nemo quis asperiores fuga ad saepe fugit commodi temporibus, consequuntur, <br>
+                dolore expedita autem ea. Corrupti, at placeat.<br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                 Blanditiis cum sapiente, recusandae inventore quasi similique cumque aliquid quae atque assumenda eos natus reiciendis dolore <br>
+                 dolorum minima. Voluptatum debitis laborum porro!<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolore laborum provident, sit nulla natus earum assumenda! <br>
+                Eveniet veniam consequatur nemo error, accusantium aliquid voluptatum esse temporibus illum excepturi nostrum.<br><br>
+            </span>
+            <figure>
+                <img src="pikachu.png" alt="Carta de Pikachu">
+                <figcaption>Fuente: Convención internacional de jugadores de Pokémon</figcaption>
+            </figure>
+            <h2>Significado de los colores de las cartas de pokemon</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, obcaecati quaerat neque iusto earum molestiae ipsam dicta adipisci quisquam consequuntur, blanditiis architecto itaque harum voluptatem maxime quasi repellat quidem? Perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquam nihil! Aspernatur quasi saepe quod modi consectetur quas at sint quibusdam velit doloribus ipsam, veniam illo ducimus consequuntur pariatur est. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sed earum obcaecati iusto neque provident quod necessitatibus assumenda eaque blanditiis quidem harum sequi facere, quia pariatur quibusdam. Totam, tempora perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius, odio id obcaecati totam est et modi consectetur nisi fuga voluptatum ab nesciunt explicabo reiciendis atque delectus aperiam voluptas cupiditate.
+            </p>
+            <table border="1">
+                <thead>
+                    <tr><th>Name</th><th>Elemento</th><th>Ph</th><th>attack</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th> pikachu</th><th>electricidad</th><th>1000</th><th>200</th></tr>
+                    <tr><th> vulvasur</th><th>planta</th><th>2500</th><th>400</th></tr>
+                    <tr><th> charizard</th><th>fuego</th><th>4000</th><th>500</th></tr>
+                    <tr><th> piplu</th><th>agua</th><th>200</th><th>20</th></tr>
+                    <tr><th> eve</th><th>comun</th><th>340</th><th>60</th></tr>
+                </tbody>
+
+            </table>
+            <br>
+            <form action="/registro" method="post">
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="codigo">Código de estudiante</label>
+                    <input type="text" id="codigo" name="codigo" required>
+                </div>
+                <div>
+                    <label for="correo">Correo institucional</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div>
+                    <label for="carrera">Carrera</label>
+                    <select id="carrera" name="carrera" required>
+                        <option value="">Seleccione su carrera...</option>
+                        <option value="sistemas">Entrenador pokemon</option>
+                        <option value="industrial">Doctor pokemon</option>
+                        <option value="comunicaciones">Competidor pókemon</option>
+                    </select>
+                </div>
+                <br>
+                <fieldset>
+                    <legend>Turno de estudio</legend>
+                    <label>
+                        <input type="radio" name="turno" value="manana" required> Mañana
+                    </label>
+                    <label>
+                        <input type="radio" name="turno" value="tarde" required> Tarde
+                    </label>
+                    <label>
+                        <input type="radio" name="turno" value="noche" required> Noche
+                    </label>
+                </fieldset>
+                <div>
+                    <label>
+                        <input type="checkbox" name="terminos" required> Confirmo que los datos ingresados son correctos
+                    </label>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+        <footer>@johan</footer>
+    </body>
+</html>
